@@ -8,8 +8,8 @@
 </head>
 <body>
    <div>
-    <div class="btn2">
-        <img  alt="img" src="./css/WhatsApp Image 2025-02-06 at 4.37.13 PM.jpeg">
+    <div class="btn2" id="promg">
+       
     </div>
     
    </div>
@@ -17,6 +17,31 @@
         
         <a href="./index.html" class="login-btn">Logout</a>
     </div>
+
+    <h1>Blogs</h1>
+  <div id="container">
+
+  </div>
+  <form id="userForm">
+    <label for="description">Description:</label>
+    <textarea id="description" name="description" rows="5" placeholder="Enter description here" required></textarea>
+
+    <label for="title"></label>
+    <!-- <div  id="upload_widget" >click me<input type="none"   name="title" placeholder="Upload profilr pic here" required></div> -->
+   <div id="upload_widget"> <button id="title" class=" pro-btn">upload file</button></div></br>
+    
+    <button type="submit" class="sumbit">Submit</button>
+    <button type="submit" class="updatedbtn">UpdateData</button>
+  </form>
+  <div class="container">
+    <table>
+      <th>Title</th>
+      <th>Description</th>
+    </table>
+    </br>
+
+  </div>
+  <script src="https://upload-widget.cloudinary.com/latest/global/all.js" type="text/javascript"></script>
     <script type="module" src="./scripts/home.js"></script>
 </body>
 </html>

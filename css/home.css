@@ -8,6 +8,11 @@ body{
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* color:rgb(9, 172, 9); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
 }
 a{
     text-decoration: none;
@@ -35,10 +40,170 @@ a{
     padding-right: 30px;
    
 }
-img{
+.btn2 img{
     border-radius: 1200px;
     width:40px;
     height: 40px;
     border: 2px solid #aa0e86;
 
 }
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-image: url('./Login+Bg.42dc57c9251f8d596709.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+   
+  } */
+
+  form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    /* background */
+    /* border: 1px solid #ddd; */
+    border-radius: 10px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color:transparent;
+    border: 2px solid #aa0e86;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0  10px rgba(0,0,0,.2)
+  }
+
+  form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px #0d0b26;
+  }
+
+  input[type="button"],
+  textarea {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: transparent;
+    color: white;
+  }
+
+  input[type="button"]:focus,
+  textarea:focus {
+    border-color: #000000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    outline: none;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background: #0d0b26;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  button:hover {
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0  10px rgba(0,0,0,.2);
+    background-color: transparent;
+  }
+
+  .container {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    /* overflow-x: auto; */
+    /* height: 1000px; */
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    /* overflow: hidden; */
+    border:1px solid black;
+    backdrop-filter: blur(20px);
+  }
+
+  table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: none;
+  }
+
+  table th {
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    color: white;
+    
+  }
+
+  table tr:nth-child(even) {
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+  }
+
+  table tr:hover {
+    /* backdrop-filter: blur(20px); */
+    box-shadow: 0 0  10px rgba(0,0,0,.2);
+    /* color: black; */
+    font-weight: bold;
+  }
+
+  /* @media (max-width: 600px) {
+    form {
+      padding: 15px;
+    }
+
+    label {
+      font-size: 14px;
+    }
+
+    input[type="text"],
+    textarea {
+      font-size: 14px;
+    }
+
+    button {
+      font-size: 14px;
+    }
+
+    table th, table td {
+      padding: 10px;
+      font-size: 14px;
+    } */
+  /* } */
+  .updatedbtn{
+     display:none;
+  }
+  .show{
+     display:block;
+  }
+  .hide{
+    display:none;
+  }
+  .image{
+    width: 50px;
+  }
+  input[type="button"]{
+    width: 40px;
+    height: 10px;
+  }
+  .pro-btn{
+    /* width: 100px; */
+    /* height: 30px; */
+    /* font-size: 14px; */
+    /* text-align: center; */
+    /* background-color: royalblue; */
+  }

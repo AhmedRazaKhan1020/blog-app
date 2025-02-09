@@ -17,12 +17,14 @@ body{
     height: 600px;
     border-radius: 20px;
     background-color:transparent;
-    border: 5px solid rgba(255,255,255,.2);
+    border: 2px solid rgba(255,255,255,.2);
     backdrop-filter: blur(30px);
     box-shadow: 0 0  10px rgba(0,0,0,.2)
 }
 #form:hover{
-    border: 3px solid #aa0e86;
+    outline: none;
+    border-color: #aa0e86;
+    box-shadow: 0 0 10px #0d0b26
 }
 input{
     
@@ -39,8 +41,15 @@ input{
     backdrop-filter: blur(20px);
     box-shadow: 0 0  10px rgba(0,0,0,.2)
 }
+input:focus{
+    outline: none;
+    border-color: #aa0e86;
+    box-shadow: 0 0 10px #0d0b26
+}
 input:hover{
-    border:2px solid #0d0b26;
+    outline: none;
+    border-color: #aa0e86;
+    box-shadow: 0 0 10px #0d0b26
 }
 a{
     color: rgb(0, 0, 0);
